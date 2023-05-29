@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <script>
+        var valor1 = parseInt (prompt('ingrese el primer numero', ''))
+        var valor2 = (prompt('ingrese el segundo numero', '')) 
+        var valor3 = (prompt('ingrese el tercer numero', ''))
+        var numeros = [valor1, valor2, valor3]
+        
+        var max= 0
+        for (let i=0; i<3; i++)
+            if (numeros [i] > max) {max = numeros [i]}      
+       document.write (max)
+        
+    </script>
+</body>
+</html>

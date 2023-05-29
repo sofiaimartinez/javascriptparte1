@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <p>Se recomienda recorrer la distancia a/en:</p>
+    <script type="text/javascript">
+        const distancia = prompt ('Ingrese una distancia', '');
+        if (distancia <1000 && distancia >0) {
+            document.write('Pie')
+        }
+        else if (distancia <0) 
+            {document.write ('Debe ingresar un numero mayor a 0')}
+        else if (distancia <10000) {
+            document.write('Bicicleta')
+        }
+        else if (distancia <30000) {
+            document.write('Colectivo')
+        }
+        else if (distancia <100000) {
+            document.write('Auto')
+        }
+        else if (distancia >100000){
+            document.write('Avion')
+        }
+        
+           </script>
+</body>
+</html>
